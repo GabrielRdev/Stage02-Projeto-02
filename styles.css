@@ -80,7 +80,15 @@ button {
   align-items: center;
   justify-content: center;
   gap: 10px;
-  ]border-radius: 4px;
+
+  padding: 14px 32px 15px;
+  border-radius: 4px;
+  
+  cursor: pointer;
+}
+
+button:hover{
+  background-color:#a5dbc8;
 }
 
 footer {
