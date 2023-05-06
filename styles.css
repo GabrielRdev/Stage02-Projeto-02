@@ -2,11 +2,19 @@ body {
   margin: 0;
 
   font-family: 'Open Sans', sans-serif;
+
+  background: linear-gradient(
+    180deg,
+    rgba(227, 255, 248, 0) 82.08%,
+    rgba(227, 255, 248, 0.38) 100%
+  );
+  min-height: 100vh;
 }
 
 .page {
   width: 1000px;
-  margin: 65px auto 0;
+  margin: 0 auto;
+  padding-top: 65px;
 }
 
 nav {
@@ -65,7 +73,7 @@ section p {
   font-size: 14px;
   line-height: 28px;
 
-  margin 40px 0;
+  margin: 40px 0;
 }
 
 button {
@@ -73,7 +81,7 @@ button {
   font-size: 16px;
 
   background: #69b99d;
-  
+
   border: 0;
 
   display: flex;
@@ -83,12 +91,12 @@ button {
 
   padding: 14px 32px 15px;
   border-radius: 4px;
-  
+
   cursor: pointer;
 }
 
-button:hover{
-  background-color:#a5dbc8;
+button:hover {
+  background-color: #a5dbc8;
 }
 
 footer {
